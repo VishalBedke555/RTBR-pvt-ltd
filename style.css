@@ -95,6 +95,10 @@ nav.scrolled {
   transition: width 0.3s ease;
 }
 
+.active a{
+  color: var(--secondary-color);
+}
+
 .nav-links a:hover {
   color: var(--secondary-color);
 }
@@ -124,7 +128,7 @@ nav.scrolled {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-              url('https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
+              url('./assets/hero-bg.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -640,7 +644,7 @@ html {
   height: 50vh;
   min-height: 400px;
   background: linear-gradient(rgba(44, 62, 80, 0.85), rgba(44, 62, 80, 0.85)),
-              url('https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
+              url('./assets/page-header-bg.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -818,7 +822,7 @@ html {
 .cta-section {
   padding: 80px 0;
   background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)),
-              url('https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
+              url('./assets/hero-bg.jpeg') center/cover no-repeat;
   text-align: center;
   color: var(--white);
 }
